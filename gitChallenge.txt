@@ -1,0 +1,10 @@
+mkdir new && cd new
+git init
+#Initialized empty Git repository in /home/vit/new/.git/
+touch challenge.txt
+echo "This is my Git challenge file" > challenge.txt
+git hash-object -w challenge.txt > hash.txt
+git cat-file -p $(cat hash.txt) >> hash.txt
+git update-index --add challenge.txt
+git ls-files -s >> hash.txt
+cat hash.txt

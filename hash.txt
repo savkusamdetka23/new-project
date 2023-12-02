@@ -1,0 +1,4 @@
+d4aa0ec2a2fcca22b4d7c1c8a6989856377facf6
+This is my Git challenge file
+100644 a12be521336ba314fc0170884b502af95a660c4d 0	README.md
+100644 d4aa0ec2a2fcca22b4d7c1c8a6989856377facf6 0	challenge.txt
